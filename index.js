@@ -60,7 +60,7 @@ const  generateAlphabetCrypt = (numberHouses) => {
   return cifrado
 }
 
-// const crypt = generaTextCipherCesar('Carol come cocô', 3)
-const decrypt = decryptTextCupherCesar('ymjd ini sty pstb ny bfx nrutxxngqj, xt ymjd ini ny! rfwp ybfns', 5)
-// console.log(`Texto criptogrado: ${crypt}` )
+const crypt = generaTextCipherCesar('Hello World', 3)
+const decrypt = decryptTextCupherCesar(crypt, 5)
+console.log(`Texto criptogrado: ${crypt}` )
 console.log(`Texto descriptogrado: ${decrypt}` )
